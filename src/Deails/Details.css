@@ -1,0 +1,963 @@
+.breadcrumb-section
+{
+    width: 100%;
+    height: 100px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.breadcrumb-section-one
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.details-section
+{
+    width: 100%;
+    background-color: #fff;
+}
+.food-presentation-section
+{
+    width: 82%;
+    margin: 0 auto;
+    height: auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-gap: 30px;
+    padding: 100px 70px;
+}
+.food-presentation-section-left-side
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.food-presentation-section-left-side-one
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 15px 15px 0 0;
+}
+.food-presentation-section-left-side-one img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.food-presentation-section-left-side-two
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 15px 7px 0 7px;
+}
+.food-presentation-section-left-side-two img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.food-presentation-section-left-side-three
+{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 15px 0 0 15px;
+}
+.food-presentation-section-left-side-three img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.food-presentation-section-left-side-four
+{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    overflow: hidden;
+}
+.food-presentation-section-left-side-four img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.food-presentation-section-right-side
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+.food-presentation-section-right-side-title
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    justify-content: start;
+}
+.food-presentation-section-right-side-title .name
+{
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #171717;
+    font-size: 32px;
+    line-height: 1.13889em;
+    letter-spacing: .15em;
+    word-wrap: break-word;
+}
+.details-section-three-right-stars
+{
+    color: #171717;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.food-presentation-section-right-side-title .price
+{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    color: #171717;
+    font-size: 15px;
+    line-height: 1.13889em;
+    letter-spacing: .15em;
+    word-wrap: break-word;
+}
+.food-presentation-section-right-side-desc
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #171717;
+    font-size: 11px;
+    line-height: 1.7rem;
+    letter-spacing: 1.8px;
+}
+.food-presentation-section-right-side-btns
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.food-presentation-section-right-side-btns-quantite-one
+{
+    width: 70%;
+    align-self: center;
+    border: 2px solid #d1d1d1;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.food-presentation-section-right-side-btns-quantite-one-one
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #d1d1d1;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.food-presentation-section-right-side-btns-quantite-one-two button svg
+{
+    fill: #afafaf;
+    transition: .4s;
+    transform: translateY(4px);
+}
+.food-presentation-section-right-side-btns-quantite-one-two span
+{
+    color: #171717;
+}
+.food-presentation-section-right-side-btns-quantite-one-two button:hover svg
+{
+    fill: #efbf48;
+}
+.food-presentation-section-right-side-btns-quantite-one-two
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.food-presentation-section-right-side-btns-quantite-one-two button
+{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+    transition: .7s;
+    cursor: pointer;
+}
+.food-presentation-section-right-side-btns-quantite-one-two button:hover
+{
+    color: #B58C67;
+}
+.food-presentation-section-right-side-btns-add-to-cart
+{
+    width: 100%;
+}
+.food-presentation-section-right-side-btns-add-to-cart button
+{
+    outline: none;
+    background-color: #171717;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 80%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+    padding: 16px 0;
+}
+.food-presentation-section-right-side-btns-add-to-cart button:hover
+{
+    background-color: #efbf48;
+}
+.food-presentation-section-right-side-categorie
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #171717;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.product-user-infos
+{
+    width: 82%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.product-user-infos-navbar
+{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 17px;
+    list-style-type: none;
+    padding: 15px 0;
+}
+.product-user-infos-navbar li
+{
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    color: #171717;
+    letter-spacing: 1.3px;
+    text-transform: lowercase;
+    position: relative;
+    background-color: #f6f6f6;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.53em;
+    padding: 14px 30px;
+    text-align: center;
+    transition: .4s;
+}
+.product-user-infos-navbar .active
+{
+    background-color: #000000;
+    color: #fff;
+}
+.product-user-infos-navbar li:hover
+{
+    background-color: #000000;
+    color: #fff;
+}
+
+.product-user-infos-main
+{
+    padding: 35px 0;
+    width: auto;
+}
+.description-section-product
+{
+    width: 100%;
+}
+.description-section-product p
+{
+    color: #171717;
+    line-height: 1.7rem;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.infos-section-product
+{
+    width: 100%;
+}
+.infos-section-product-one
+{
+    display: flex;
+    gap: 35px;
+}
+.infos-section-product-one h2
+{
+    color: #171717;
+    line-height: 1.7rem;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.infos-section-product-one span
+{
+    color: #171717;
+    line-height: 1.7rem;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.reviews-section-product
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 2fr;
+}
+.reviews-section-product-one
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.reviews-section-product-one h2
+{
+    color: #171717;
+    line-height: 1.7rem;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.reviews-section-product-one span
+{
+    color: #171717;
+    line-height: 1.7rem;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+.reviews-section-product-two
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+.reviews-section-product-two-added
+{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.reviews-section-product-two-added .spanExept
+{
+    color: #171717;
+    line-height: 1.7rem;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.reviews-section-product-two-added span
+{
+    color: #171717;
+    line-height: 1.7rem;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+.reviews-section-product-three
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.reviews-section-product-three-one
+{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.details-section-popup-view-clothe-infos-right-bottom-span
+{
+    color: #171717;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.details-section-three-item-image:hover .collection-section-three-item-popup
+{
+    display: grid;
+}
+.details-section-three-item-image:hover .collection-section-three-item-popup-soldout
+{
+    display: grid;
+}
+.details-section-three-item-image::before
+{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .5s;
+}
+.details-section-three-item-image:hover::before
+{
+    opacity: 0.4;
+}
+.details-section-three-item-image
+{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+}
+.details-section-three-item-image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.details-section-three-item-infos-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.details-section-three-item-infos-title .details-section-three-item-infos-title-main-name
+{
+    color: #171717;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.73em;
+    transition: .4s;
+    cursor: pointer;
+}
+.details-section-three-item-infos-title .details-section-three-item-infos-title-main-name:hover
+{
+    color: #efbf48;
+}
+.reviews-section-product-three-one span
+{
+    color: #171717;
+    line-height: 1.7rem;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+.reviews-section-product-three-texarea
+{
+    width: 100%;
+}
+.reviews-section-product-three-texarea textarea
+{
+    width: calc(100% - 14px);
+    max-height: 177px;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #afafaf;
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 15px 7px;
+
+}
+.reviews-section-product-three-texarea textarea::placeholder
+{
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    transition: .7s;
+}
+.reviews-section-product-three-two
+{
+    width: 100%;
+    display: flex;
+    gap: 17px;
+    padding: 45px 0;
+}
+.reviews-section-product-three-two input
+{
+    outline: none;
+    width: 100%;
+    padding: 15px 7px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #afafaf;
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: #171717;
+}
+.reviews-section-product-three-two input::placeholder
+{
+    color: #171717;
+}
+.reviews-section-product-three-three
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.reviews-section-product-three-three-one
+{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    gap: 10px;
+}
+.reviews-section-product-three-three-one-check
+{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #171717;
+}
+.ensure-display-flex
+{
+    display: flex;
+    align-items: center;
+}
+.reviews-section-product-three-three-one-check-terms
+{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #171717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.reviews-section-product-three-three-one-check-terms::before
+{
+    content: '';
+    width: 11px;
+    height: 11px;
+    background-color: #171717;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+.reviews-section-product-three-three-check-span
+{
+    color: #171717;
+    line-height: 1.7rem;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+.reviews-section-product-three-three-two
+{
+    width: 100%;
+}
+
+.reviews-section-product-three-three-two a
+{
+    cursor: pointer;
+    width: 15%;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171717;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    transition: .6s;
+}
+.reviews-section-product-three-three-two a:hover
+{
+
+    background-color: #efbf48;
+    color: #171717;
+}
+.related-products
+{
+    width: 82%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #fff;
+    padding: 50px 0;
+}
+.related-title-products{
+    font-family: Poppins,sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.39286em;
+    letter-spacing: .12em;
+    background-color: #fff;
+    color: #171717;
+    text-align: center;
+}
+
+.related-products .collection-section-two-one-sale
+{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 15% 60% 15%;
+    padding: 30px 25px;
+    position: relative;
+}
+.related-products .collection-section-two-one-sale::before
+{
+    content: 'SALE';
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--brown);
+    position: absolute;
+    left: 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    bottom: 25%;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    border-radius: 50%;
+}
+.related-products .collection-section-two-one
+{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 10% 60% 20%;
+    padding: 30px 25px;
+}
+.related-products .collection-section-two-one-one
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.related-products .collection-section-two-one-one-left-side
+{
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+    font-size: 19px;
+    line-height: 1.5rem;
+    text-align: left;  
+    letter-spacing: 1px;
+}
+.related-products .collection-section-two-one-one-right-side
+{
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #cecece;
+    font-size: 16px;
+    line-height: 1.5rem;
+    text-align: right;  
+}
+.collection-section-two-one-two
+{
+    width: fit-content;
+}
+.related-products .collection-section-two-one-two a
+{
+    position: relative;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5rem;
+    padding: 5px 0;
+    text-decoration: none;
+}
+.related-products .collection-section-two-one-two a::before
+{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: var(--brown);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.related-products .collection-section-two-one-three
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.related-products .collection-section-two-one-three-4
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.related-products .collection-section-two-one-three img
+{
+    width: 35%;
+    transition: .8s
+}
+.related-products .collection-section-two-one-three-4 img{
+    width: 100%;
+    transition: .8s
+}
+.related-products .collection-section-two-one-three img:hover
+{
+    transform: scale(1.04);
+}
+.related-products .collection-section-two-one-three-4 img:hover
+{
+    transform: scale(1.04);
+}
+.related-products .collection-section-two-one-four
+{
+    width: 100%;
+    color: #cecece;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: end;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 11px;
+}
+.related-products .collection-section-two-one-one-prices
+{
+    display: flex;
+    gap: 10px;
+}
+
+.related-products .collection-section-two-one-one-promo-side
+{
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #cecece;
+    text-decoration: line-through;
+    font-size: 16px;
+    line-height: 1.5rem;
+    text-align: right;  
+}
+
+@media only screen and (max-width: 767px)
+{
+    .breadcrumb-section-one
+    {
+        width: 90%;
+        gap: 7px;
+        font-size: 14px;
+    }
+    .food-presentation-section
+    {
+        width: 90%;
+        grid-template-columns: 1fr;
+        padding: 100px 0;
+        grid-gap: 30px;
+    }
+    .food-presentation-section-left-side
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .food-presentation-section-left-side-four
+    {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    .food-presentation-section-left-side-one
+    {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .food-presentation-section-left-side-two
+    {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        
+    }
+    .food-presentation-section-left-side-three
+    {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .food-presentation-section-right-side-title
+    {
+        gap: 15px;
+    }
+    .food-presentation-section-right-side-title .name
+    {
+        font-size: 27px;
+    }
+    .food-presentation-section-right-side-title .price
+    {
+        font-size: 14px;
+    }
+    .food-presentation-section-right-side-desc
+    {
+        font-size: 10px;
+        line-height: 1.4rem;
+    }
+    .product-user-infos-navbar
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+    .product-user-infos
+    {
+        width: 90%;
+    }
+    .description-section-product
+    {
+        grid-template-columns: 1fr;
+    }
+    .infos-section-product-one h2
+    {
+        font-size: 11px;
+    }
+    .infos-section-product-two h2
+    {
+        font-size: 11px;
+    }
+    .reviews-section-product-three-two
+    {
+        grid-template-columns: 1fr;
+    }
+    .reviews-section-product-three-three-check-span
+    {
+        font-size: 14px;
+    }
+    .reviews-section-product-three-three-two a
+    {
+        width: 45%;
+    }
+    .related-products
+    {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .related-products .collection-section-two-one-sale
+    {
+        padding: 10px 7px;
+    }
+    .related-products .collection-section-two-one
+    {
+        padding: 10px 7px;
+
+    }
+    .related-products .collection-section-two-one-one-left-side
+    {
+        font-size: 14px;
+    }
+    .related-products .collection-section-two-one-four
+    {
+        font-size: 10px;
+    }
+}
+.details-products-contact-section
+{
+    width: 100%;
+    background-color: #000000;
+}
+.details-products-contact-section
+{
+    padding: 100px 0;
+}

@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    overflow-x: hidden;
+}
+::selection
+{
+    background-color: #efbf48;
+    color: #fff;
+}
+html
+{
+    overflow-x: hidden;
+}
+.toTop
+{
+    width: 42px;
+    height: 42px;
+    background-color: #efbf48;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .4s;
+    z-index: 10000;
+}
+.toTop:hover
+{
+    transform: translateX(-5px) translateY(-5px);
+}
+.toTop svg
+{
+    padding: 8px;
+    z-index: 9999;
+}
+.toTop-black
+{
+    width: 42px;
+    height: 42px;
+    background-color: #000000;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    z-index: 10000;
+}
+@media only screen and (max-width: 767px)
+{
+    .toTop
+    {
+        right: 20px;
+        bottom: 20px;
+    }
+    .toTop-black
+    {
+        right: 20px;
+        bottom: 20px;
+    }
+}

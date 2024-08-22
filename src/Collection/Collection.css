@@ -1,0 +1,659 @@
+.collection-section
+{
+    width: 100%;
+    background-image: url('../clothes_images/products_section-bg.jpg');
+    background-position: center;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 100px 0;
+}
+.collection-section-one
+{
+    width: 100%;
+    font-size: 27px;
+    font-weight: 600;
+    color: #171717;
+    line-height: 1.19em;
+    text-transform: lowercase;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.collection-section-two
+{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.53em;
+    text-transform: lowercase;
+    color: #171717;
+    text-align: center;
+    display: flex;
+    align-items: start;
+    padding: 45px 0;
+}
+.collection-section-two p
+{
+    width: 40%;
+    margin: 0 auto;
+}
+.collection-section-three
+{
+    width: 82%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    padding: 40px 0;
+}
+.collection-section-three-item
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80% 20%;
+    position: relative;
+}
+.collection-section-three-item-sale
+{
+    background: #171717;
+    left: auto;
+    padding: 0 24px 0 16px;
+    right: 0;
+    font-family: Poppins, sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: auto;
+    z-index: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.collection-section-three-item-sale::before
+{
+    content: '';
+    border-style: solid;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    border-color: transparent #171717 transparent transparent;
+    border-width: 0 20px 28px 0;
+    left: -20px;
+    right: auto;
+}
+.collection-section-three-item-image
+{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+}
+.collection-section-three-item-image img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.collection-section-three-item-infos
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px 0;
+}
+.collection-section-three-item-infos-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.collection-section-three-item-infos-title span
+{
+    color: #171717;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.73em;
+    transition: .4s;
+    cursor: pointer;
+}
+.collection-section-three-item-infos-title span:hover
+{
+    color: #efbf48;
+}
+.collection-section-three-item-infos-prices
+{
+    width: 100%;
+}
+.collection-section-three-item-infos-prices-one
+{
+    width: 100%;
+    text-align: center;
+}
+.collection-section-three-item-infos-prices-one span
+{
+    background-color: #171717;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Poppins, sans-serif;
+    padding: 0 7px;
+    position: relative;
+}
+.collection-section-three-item-infos-prices-one span::before
+{
+    content: '';
+    border-style: solid;
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    border-color: transparent transparent #171717 transparent;
+    border-width: 0 0 20px 9px;
+    left: -9px;
+}
+.collection-section-three-item-infos-prices-one span::after
+{
+    content: '';
+    border-style: solid;
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    border-color: transparent transparent transparent #171717;
+    border-width: 20px 0 0 9px;
+    right: -9px;
+}
+
+.collection-section-three-item-infos-prices-promo-old
+{
+    background-color: #171717;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Poppins, sans-serif;
+    padding: 0 7px;
+    position: relative;
+    text-decoration: line-through;
+}
+.collection-section-three-item-infos-prices-promo-old::before
+{
+    content: '';
+    border-style: solid;
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    border-color: transparent transparent #171717 transparent;
+    border-width: 0 0 20px 9px;
+    left: -9px;
+}
+.collection-section-three-item-infos-prices-promo-old::after
+{
+    content: '';
+    border-style: solid;
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    border-color: transparent transparent transparent #171717;
+    border-width: 20px 0 0 9px;
+    right: -9px;
+}
+.collection-section-three-item-infos-prices-promo-old-div
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.collection-section-three-item-infos-prices-promo-new-div
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.collection-section-three-item-infos-prices-promo
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+
+.collection-section-three-item-infos-prices-promo-new
+{
+    background-color: #efbf48;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Poppins, sans-serif;
+    padding: 0 7px;
+    position: relative;
+}
+.collection-section-three-item-infos-prices-promo-new::before
+{
+    content: '';
+    border-style: solid;
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    border-color: transparent #efbf48 transparent transparent;
+    border-width: 0 9px 20px 0;
+    left: -9px;
+}
+.collection-section-three-item-infos-prices-promo-new::after
+{
+    content: '';
+    border-style: solid;
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    border-color: #efbf48 transparent transparent transparent;
+    border-width: 20px 9px 0 0;
+    right: -9px;
+}
+.collection-section-three-item-image:hover .collection-section-three-item-popup
+{
+    display: grid;
+}
+.collection-section-three-item-image:hover .collection-section-three-item-popup-soldout
+{
+    display: grid;
+}
+.collection-section-three-item-popup-soldout
+{
+    width: 30%;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: opacity .3s alternate ease-in-out;
+    display: none;
+    grid-template-columns: 1fr 1fr;
+}
+.collection-section-three-item-popup
+{
+    width: 50%;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: opacity .3s alternate ease-in-out;
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+@keyframes opacity{
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.collection-section-three-item-popup-view
+{
+    width: 100%;
+}
+.collection-section-three-item-popup-view button
+{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.collection-section-three-item-popup-view
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.collection-section-three-item-popup-view svg
+{
+    transition: .7s;
+    transform: translateY(-4px);
+}
+.collection-section-three-item-popup-view:hover svg
+{
+    transform: translateY(-8px);
+}
+.collection-section-three-item-popup-like
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.collection-section-three-item-popup-like .likesvg
+{
+    transition: .7s;
+    transform: translateY(-4px);
+}
+.collection-section-three-item-popup-like svg
+{
+    transform: translateY(-4px);
+}
+.collection-section-three-item-popup-like:hover .likesvg
+{
+    transform: translateY(-8px);
+}
+.collection-section-three-item-popup-shop svg
+{
+    transition: .7s;
+    transform: translateY(-4px);
+}
+.collection-section-three-item-popup-shop:hover svg
+{
+    transform: translateY(-8px);
+}
+.collection-section-three-item-popup-shop
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.collection-section-popup-view-clothe
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23,23,23,.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.collection-section-popup-view-clothe-infos
+{
+    width: 74%;
+    height: 75%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    animation: showview .3s alternate ease-in-out;
+    opacity: 1;
+}
+.collection-section-popup-view-clothe-infos-hiding
+{
+    animation: hideview .3s alternate ease-in-out;
+}
+@keyframes hideview
+{
+    0%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50%
+    {
+        opacity: 0.6;
+        transform: translateY(10px);
+    }
+    80%
+    {
+        opacity: 0.5;
+        transform: translateY(30px);
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translateY(45);
+    }
+}
+@keyframes showview
+{
+    0%
+    {
+        opacity: 0.2;
+        transform: translateY(45px);
+    }
+    50%
+    {
+        opacity: 0.5;
+        transform: translateY(30);
+    }
+    80%
+    {
+        opacity: 0.8;
+        transform: translateY(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.collection-section-popup-view-clothe-infos-left
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.collection-section-popup-view-clothe-infos-left img
+{
+    width: 100%;
+    object-fit: cover;
+}
+.collection-section-popup-view-clothe-infos-right
+{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 90%;
+}
+.collection-section-popup-view-clothe-infos-right-top
+{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.collection-section-popup-view-clothe-infos-right-top button
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.collection-section-popup-view-clothe-infos-right-top button svg
+{
+    fill: #171717;
+    transition: .4s;
+    font-weight: 100;
+}
+.collection-section-popup-view-clothe-infos-right-top button:hover svg
+{
+    fill: #efbf48;
+}
+.collection-section-popup-view-clothe-infos-right-bottom h1
+{
+    color: #171717;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 0 35px;
+}
+.collection-section-popup-view-clothe-infos-right-bottom h2
+{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.22em;
+    text-transform: lowercase;
+    font-size: 21px;
+    margin: 0;
+    padding: 0 35px;
+}
+.collection-section-popup-view-clothe-infos-right-bottom p
+{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 2.1em;
+    font-size: 15px;
+    width: 90%;
+    margin: 0;
+    padding: 0 35px;
+}
+.collection-section-popup-view-clothe-infos-right-bottom-span
+{
+    color: #171717;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    padding: 0 35px;
+}
+.collection-section-popup-view-clothe-infos-right-bottom a 
+{
+    text-decoration: none;
+    background-color: #171717;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    padding: 11px 45px;
+    transition: .5s;
+    cursor: pointer;
+    text-align: center;
+}
+.collection-section-popup-view-clothe-infos-right-bottom a:hover
+{
+    background-color: #efbf48;
+}
+.collection-section-popup-view-clothe-infos-right-bottom
+{
+    padding: 35px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+}
+.collection-section-popup-view-clothe-infos-right-bottom-add-quantite
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.collection-section-popup-view-clothe-infos-right-bottom-add-quantite-btns
+{
+    padding: 10px 20px;
+    border: 2px solid #d1d1d1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 35px;
+}
+.collection-section-popup-view-clothe-infos-right-bottom-add-quantite-btns button
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.collection-section-popup-view-clothe-infos-right-bottom-add-quantite-btns button svg
+{
+    fill: #afafaf;
+    transition: .4s;
+}
+.collection-section-popup-view-clothe-infos-right-bottom-add-quantite-btns button:hover svg
+{
+    fill: #efbf48;
+}
+@media only screen and (max-width: 767px)
+{
+    .collection-section-popup-view-clothe-infos
+    {
+        width: 90%;
+        height: fit-content;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .collection-section-popup-view-clothe-infos-right-bottom-add-quantite
+    {
+        flex-direction: column;
+    }
+    .collection-section-popup-view-clothe-infos-right-bottom-add-quantite-btns
+    {
+        margin: 0;
+        border: none;
+    }
+    .collection-section-popup-view-clothe-infos-right-bottom a 
+    {
+        width: 80%;
+        padding: 9px 0;
+    }
+    .collection-section-two p
+    {
+        width: 90%;
+    }
+    .collection-section-one
+    {
+        font-size: 22px;
+    }
+    .collection-section-three
+    {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .collection-section-three-item-popup
+    {
+        width: 40%;
+    }
+    .collection-section-three-item-popup-soldout
+    {
+        width: 30%;
+    }
+}

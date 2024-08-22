@@ -1,0 +1,213 @@
+.shop-section
+{
+    width: 100%;
+}
+.shop-section-one
+{
+    width: 82%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 100px 0;
+    grid-gap: 20px;
+}
+.shop-section-one-left
+{
+    width: 100%;
+}
+.shop-section-one-left-top
+{
+    width: 100%;
+    padding: 0 0 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop-section-one-left-top h1
+{
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.shop-section-one-left-top-drop-down
+{
+    width: 28%;
+    cursor: pointer;
+    padding: 13px 15px;
+    border: 2px solid #d1d1dd;
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.shop-section-one-left-top-drop-down-menu
+{
+    position: absolute;
+    top: calc(100% + 2px);
+    left: -2px;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #d1d1dd;
+    border-top: none;
+    z-index: 5000;
+}
+.shop-section-one-left-top-drop-down-menu ul
+{
+    list-style-type: none;
+}
+.shop-section-one-left-top-drop-down-menu ul li
+{
+    padding: 15px 20px;
+}
+.shop-section-one-left-collection
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.collection-section-three-item-shop-section
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80% 20%;
+    position: relative;
+    margin-bottom: 51px;
+}
+.shop-section-one-right
+{
+    width: 100%;
+}
+.shop-section-one-right-inputs
+{
+    padding: 25px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+.shop-section-one-right-inputs input
+{
+    padding: 10px 0;
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid #d1d1dd;
+    width: calc(100% - 24px);
+    padding: 10px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.shop-section-one-right-silter-infos
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shop-section-one-right-silter-infos h1
+{
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.shop-section-one-right-silter-infos button
+{
+    background-color: transparent;
+    border: none;
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.shop-section-one-right-search
+{
+    margin: 50px 0;
+    width: 100%;
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    border-bottom: 2px solid #d1d1dd;
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+.shop-section-one-right-search input
+{
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    padding: 15px 0;
+}
+.shop-section-one-right-search input::placeholder
+{
+    color: #171717;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.shop-section-one-right-search-div
+{
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-section-one-right-search-div svg
+{
+    fill: #171717;
+    transition: .4s;
+}
+.shop-section-one-right-search-div:hover svg
+{
+    fill: #efbf48;
+}
+@media only screen and (max-width: 767px)
+{
+    .shop-section-one
+    {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .shop-section-one-left-top
+    {
+        flex-direction: column;
+        gap: 25px;
+        align-items: start;
+    }
+    .shop-section-one-left-top-drop-down
+    {
+        width: 65%;
+        font-size: 14px;
+        padding: 10px 13px;
+    }
+    .shop-section-one-left-collection
+    {
+        grid-template-columns: 1fr;
+    }
+}

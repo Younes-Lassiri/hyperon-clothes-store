@@ -1,0 +1,265 @@
+.pricing-tables-section
+{
+    width: 100%;
+    background-image: url('../clothes_images/products_section-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0 100px 0;
+}
+.pricing-tables-section-tables
+{
+    width: 82%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 65px;
+}
+.pricing-tables-section-tables-two
+{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    gap: 25px;
+    position: relative;
+}
+.pricing-tables-section-tables-two::before
+{
+    content: '';
+    width: 100%;
+    background-color: transparent;
+    border: 10px solid #efbf48;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.pricing-tables-section-tables-three
+{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    gap: 25px;
+    position: relative;
+}
+.pricing-tables-section-tables-three::before
+{
+    content: '';
+    width: 100%;
+    background-color: transparent;
+    border: 10px solid #171717;
+    border-image: url('../clothes_images/border_image.png') 10 repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.pricing-tables-section-tables-one
+{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    gap: 25px;
+    position: relative;
+}
+.pricing-tables-section-tables-one::before
+{
+    content: '';
+    width: 100%;
+    background-color: transparent;
+    border: 10px solid #171717;
+    border-image: url('../clothes_images/border_image.png') 10 repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.pricing-tables-section-tables-one h1
+{
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+}
+.pricing-tables-section-tables-one h2
+{
+    color: #171717;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: lowercase;
+    margin: 0;
+}
+.pricing-tables-section-tables-one span
+{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: #171717;
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: lowercase;
+    margin: 0;
+}
+.pricing-tables-section-tables-one-list ul
+{
+    list-style-type: none;
+    color: #171717;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.pricing-tables-section-tables-one-list ul li
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 8px 0;
+    font-weight: 300;
+}
+.pricing-tables-section-tables-one a
+{
+    color: #171717;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    padding: 13px 0;
+    position: relative;
+    text-align: center;
+}
+.pricing-tables-section-tables-one a::before
+{
+    content: '';
+    width: 40%;
+    height: 2px;
+    background-color: #171717;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+.pricing-tables-section-tables-one a:hover::before
+{
+    width: 50%;
+}
+.pricing-tables-section-tables-two h1
+{
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+}
+.pricing-tables-section-tables-two h2
+{
+    color: #171717;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: lowercase;
+    margin: 0;
+}
+.pricing-tables-section-tables-two span
+{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: #171717;
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: lowercase;
+    margin: 0;
+}
+.pricing-tables-section-tables-two a
+{
+    color: #171717;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    padding: 13px 0;
+    position: relative;
+    text-align: center;
+}
+.pricing-tables-section-tables-two a::before
+{
+    content: '';
+    width: 40%;
+    height: 2px;
+    background-color: #171717;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+.pricing-tables-section-tables-two a:hover::before
+{
+    width: 50%;
+}
+.pricing-tables-section-tables-three h1
+{
+    color: #171717;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+}
+.pricing-tables-section-tables-three h2
+{
+    color: #171717;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: lowercase;
+    margin: 0;
+}
+.pricing-tables-section-tables-three span
+{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: #171717;
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: lowercase;
+    margin: 0;
+}
+.pricing-tables-section-tables-three a
+{
+    color: #171717;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    padding: 13px 0;
+    position: relative;
+    text-align: center;
+}
+.pricing-tables-section-tables-three a::before
+{
+    content: '';
+    width: 40%;
+    height: 2px;
+    background-color: #171717;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+.pricing-tables-section-tables-three a:hover::before
+{
+    width: 50%;
+}
+@media only screen and (max-width: 767px)
+{
+    .pricing-tables-section-tables
+    {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+}

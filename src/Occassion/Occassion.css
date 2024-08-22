@@ -1,0 +1,94 @@
+.occassion-section
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.occassion-section-one
+{
+    width: 100%;
+    background-image: url('../clothes_images/pogba.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.occassion-section-two
+{
+    width: 100%;
+    background-image: url('../clothes_images/pogba_gray.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 90px 0;
+}
+.occassion-section-two h1
+{
+    color: #fff;
+    font-family: Poppins,sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.73em;
+    padding-left: 50px;
+}
+.occassion-section-two p
+{
+    color: #fff;
+    font-family: Poppins,sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.53em;
+    padding: 25px 0;
+    padding-left: 50px;
+}
+.occassion-section-two svg
+{
+    margin-left: 50px;
+}
+.occassion-section-two a
+{
+    background-color: transparent;
+    border-left: 2px solid #171717;
+    border-right: 2px solid #171717;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.edgtf-btn.edgtf-btn-gapped_outline .edgtf-gapped-border-top {
+    top: 0;
+    background: linear-gradient(to right,currentColor 0,currentColor 85%,transparent 85%,transparent 89%,currentColor 89%,currentColor 100%);
+}
+.edgtf-btn.edgtf-btn-gapped_outline .edgtf-gapped-border {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    color: #fff;
+    transform: skew(-42deg);
+}
+.edgtf-btn {
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    line-height: 16px;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    position: relative;
+    width: auto;
+    padding: 18px 57px;
+}
+.edgtf-btn.edgtf-btn-gapped_outline .edgtf-gapped-border-bottom {
+    bottom: 0;
+    background: linear-gradient(to right,currentColor 0,currentColor 15%,transparent 15%,transparent 19%,currentColor 19%,currentColor 100%);
+}
+@media only screen and (max-width: 767px)
+{
+    .occassion-section
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}

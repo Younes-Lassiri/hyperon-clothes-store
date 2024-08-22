@@ -1,0 +1,133 @@
+.arrivals-section
+{
+    width: 100%;
+    height: 100vh;
+    background: url('../clothes_images/arrival_bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.arrivals-section-all
+{
+    width: 100%;
+    height: calc(100% - 72px);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.arrivals-section-countdown
+{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.arrivals-section-countdown h1
+{
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+}
+.arrivals-section-countdown span
+{
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+.arrivals-section-countdown div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.arrivals-section-two
+{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 50px;
+}
+.arrivals-section-two button
+{
+    width: 70%;
+    outline: none;
+    padding: 0;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.19em;
+    text-transform: lowercase;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+    transition: .6s;
+}
+.arrivals-section-two button:hover
+{
+    background-color: #efbf48;
+    border: none;
+}
+.arrivals-section-two input
+{
+    padding: 16px 10px;
+    color: #fff;
+    outline: none;
+    border: 2px solid #fff;
+    width: 100%;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.19em;
+    text-transform: lowercase;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+}
+.arrivals-section-two input::placeholder
+{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.19em;
+    text-transform: lowercase;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+}
+@media only screen and (max-width: 767px)
+{
+    .arrivals-section-two
+    {
+        width: 95%;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    .arrivals-section-two input
+    {
+        width: 80%;
+    }
+    .arrivals-section-two button
+    {
+        padding: 15px 0;
+        width: 46%;
+    }
+    .arrivals-section-countdown
+    {
+        width: 95%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+    }
+    .arrivals-section-countdown h1
+    {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .arrivals-section-countdown div
+    {
+        align-items: start;
+    }
+}

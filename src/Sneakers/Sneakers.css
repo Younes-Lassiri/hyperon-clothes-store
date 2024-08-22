@@ -1,0 +1,94 @@
+.sneakers-section
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url('../clothes_images/sneakers_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sneakers-section-two
+{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 90px 0;
+    gap: 13px;
+}
+.sneakers-section-two h1
+{
+    color: #fff;
+    text-align: right;
+    font-family: Poppins,sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.73em;
+    padding-left: 50px;
+}
+.sneakers-section-two p
+{
+    width: 100%;
+    color: #fff;
+    font-family: Poppins,sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.53em;
+    padding: 25px 0;
+    text-align: right;
+}
+.sneakers-section-two a
+{
+    background-color: transparent;
+    border-left: 2px solid #171717;
+    border-right: 2px solid #171717;
+    text-decoration: none;
+}
+.sneakers-section-one
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sneakers-section-one img
+{
+    width: 80%;
+    transform: translateY(25%);
+}
+@media only screen and (max-width: 767px)
+{
+    .sneakers-section
+    {
+        grid-template-columns: 1fr;
+    }
+    .sneakers-section-two
+    {
+        gap: 20px;
+    }
+    .sneakers-section-two h1
+    {
+        line-height: 1.3em;
+        padding-right: 35px;
+    }
+    .sneakers-section-two svg
+    {
+        padding-right: 35px;
+    }
+    .sneakers-section-two p
+    {
+        line-height: 1.4em;
+        padding: 25px 35px;
+    }
+    .sneakers-section-two a
+    {
+        margin-right: 35px;
+    }
+    .sneakers-section-one img
+    {
+        transform: translateY(0);
+    }
+}
